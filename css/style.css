@@ -46,6 +46,7 @@ body {
 	background-color: var(--body-color);
 	color: var(--text-color);
 	transition: .3s;
+	overflow-x: hidden;
 	/* For animation dark mode */
 }
 
@@ -73,7 +74,7 @@ img {
 .change-theme {
 	position: absolute;
 	top: 1.5rem;
-	right: 0;
+	right: 5rem;
 	font-size: 1.25rem;
 	color: var(--title-color);
 	cursor: pointer;
@@ -105,6 +106,10 @@ body.dark-theme {
 }
 
 .dark-theme .filters__content {
+	background-color: var(--container-color);
+}
+
+.dark-theme .text__wrapper {
 	background-color: var(--container-color);
 }
 
@@ -391,9 +396,8 @@ body.dark-theme {
 /*=============== EDUCATION ===============*/
 .text__wrapper {
 	text-align: center;
-	background-color: inherit;
-	border-radius: 10px;
-	width: 50%;
+	background-color: var(--text-color-lighten);
+	border-radius: .75rem;
 	box-sizing: border-box;
 	margin: 0 auto;
 	margin-bottom: 20px;
@@ -403,7 +407,6 @@ body.dark-theme {
 .text {
 	padding: 15px 15px 15px 17px;
 	border-top: 10px;
-	background-color: var(--container-color);
 	border-radius: .5rem;
 }
 
@@ -479,6 +482,10 @@ body.dark-theme {
 		width: 332px;
 		margin: 3rem auto;
 	}
+
+	.text__wrapper {
+		width: 332px;
+	}
 }
 
 @media screen and (min-width: 776px) {
@@ -503,7 +510,7 @@ body.dark-theme {
 
 	.change-theme {
 		top: 2.5rem;
-		right: 2.5rem;
+		right: 5rem;
 	}
 
 	.change-theme:hover{
