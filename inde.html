@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!--=============== FAVICON ===============-->
+	<!--<link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">-->
+
+	<!--=============== REMIX ICONS ===============-->
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+	<!--=============== DEV ICONS ===============-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+	<!--=============== CSS ===============-->
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<title>Jesús Pichardo</title>
+</head>
+
+<body>
+	<!--=============== HEADER ===============-->
+	<header class="profile container">
+		<!-- Theme button -->
+		<i class="ri-moon-line change-theme" id="theme-button"></i>
+
+		<div class="profile__container grid">
+			<div class="profile__data">
+				<div class="profile__img">
+					<img src="https://avatars.githubusercontent.com/u/104655959?s=400&u=41da9cd631c39c92d3599e2fee200b3af0da63a4&v=4"
+						alt="">
+				</div>
+
+				<h2 class="profile__name">Jesús Pichardo</h2>
+				<h3 class="profile__profession">Computer System Engineer | Web</h3>
+				<h3 class="profile__profession2">Development | App Development</h3>
+			</div>
+
+			<div class="profile__buttons">
+				<a href="https://drive.google.com/file/d/1BSj8QV5kfD6kCucJH_w1CgV_n_is_L0e/view?usp=drive_link"
+					target="_blank" class="button">
+					Download CV <i class="ri-download-line"></i>
+				</a>
+				<div class="profile__buttons-small">
+					<a href="https://www.linkedin.com/in/jesús-alejandro-pichardo-buenrostro/" target="_blank"
+						class="button button__small button__gray">
+						<i class="ri-linkedin-box-line"></i>
+					</a>
+					<a href="https://github.com/JPichardo99" target="_blank" class="button button__small button__gray">
+						<i class="ri-github-line"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--=============== MAIN ===============-->
+	<main class="main">
+		<section class="filters container">
+			<!--=============== FILTERS TABS ===============-->
+			<ul class="filters__content">
+				<button class="filters__button filter-tab-active" data-target="#projects">
+					Projects
+				</button>
+				<button class="filters__button" data-target="#skills">
+					Skills
+				</button>
+				<button class="filters__button" data-target="#education">
+					Education
+				</button>
+			</ul>
+
+			<div class="filters__sections">
+				<!--=============== PROJECTS ===============-->
+				<div class="projects__content grid filters__active" data-content id="projects">
+					<article class="projects__card">
+						<!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+						<img src="images/project-1.png" alt="" class="projects__img">
+
+						<div class="projects__modal">
+							<div>
+								<span class="projects__subtitle">Reactjs, Tailwind CSS</span>
+								<h3 class="projects__title">Link-Hub</h3>
+								<a href="https://link-hub-jpichardo99.vercel.app" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-link"></i>
+								</a>
+								<a href="https://github.com/JPichardo99/Link-Hub-React" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-github-line"></i>
+								</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="projects__card">
+						<img src="images/project-6.png" alt="" class="projects__img">
+
+						<div class="projects__modal">
+							<div>
+								<span class="projects__subtitle">HTML, CSS, Javascript</span>
+								<h3 class="projects__title">Portafolio Webside</h3>
+								<a href="#" target="_blank" class="projects__button button button__small">
+									<i class="ri-link"></i>
+								</a>
+								<a href="https://github.com/JPichardo99/QR-Generator-Javascript" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-github-line"></i>
+								</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="projects__card">
+						<img src="images/project-2.png" alt="" class="projects__img">
+
+						<div class="projects__modal">
+							<div>
+								<span class="projects__subtitle">HTML, CSS, Javascript</span>
+								<h3 class="projects__title">QR Generator</h3>
+								<a href="https://jpichardo99.github.io/QR-Generator-Javascript/" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-link"></i>
+								</a>
+								<a href="https://github.com/JPichardo99/QR-Generator-Javascript" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-github-line"></i>
+								</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="projects__card">
+						<img src="images/project-3.png" alt="" class="projects__img">
+
+						<div class="projects__modal">
+							<div>
+								<span class="projects__subtitle">HTML, CSS, Javascript</span>
+								<h3 class="projects__title">Random Gradient Generator</h3>
+								<a href="https://jpichardo99.github.io/Random-Gradient-Generator-Javascript/"
+									target="_blank" class="projects__button button button__small">
+									<i class="ri-link"></i>
+								</a>
+								<a href="https://github.com/JPichardo99/Random-Gradient-Generator-Javascript"
+									target="_blank" class="projects__button button button__small">
+									<i class="ri-github-line"></i>
+								</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="projects__card">
+						<img src="images/project-4.png" alt="" class="projects__img">
+
+						<div class="projects__modal">
+							<div>
+								<span class="projects__subtitle">HTML, CSS, Javascript</span>
+								<h3 class="projects__title">Currency Converter</h3>
+								<a href="https://jpichardo99.github.io/Currency-Converter-Javascript/" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-link"></i>
+								</a>
+								<a href="https://github.com/JPichardo99/Currency-Converter-Javascript" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-github-line"></i>
+								</a>
+							</div>
+						</div>
+					</article>
+
+					<article class="projects__card">
+						<img src="images/project-5.png" alt="" class="projects__img">
+
+						<div class="projects__modal">
+							<div>
+								<span class="projects__subtitle">Flutter</span>
+								<h3 class="projects__title">Onboarding Screen</h3>
+								<a href="https://github.com/JPichardo99/Onboarding-Flutter" target="_blank"
+									class="projects__button button button__small">
+									<i class="ri-github-line"></i>
+								</a>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<!--=============== SKILLS ===============-->
+				<div class="skills__content grid" data-content id="skills">
+					<div class="skills__area">
+						<div class="skills__box">
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="devicon-html5-plain-wordmark colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-css3-plain-wordmark colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-bootstrap-plain-wordmark colored"></i>
+								</div>
+							</div>
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="devicon-tailwindcss-original-wordmark colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-javascript-plain colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-java-plain-wordmark colored"></i>
+								</div>
+							</div>
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="devicon-python-plain-wordmark colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-php-plain colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-nodejs-plain colored"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="skills__area">
+						<div class="skills__box">
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="devicon-angularjs-plain colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-laravel-plain-wordmark colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-react-original-wordmark colored"></i>
+								</div>
+							</div>
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="devicon-firebase-plain-wordmark colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-flutter-plain colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-mysql-plain-wordmark colored"></i>
+								</div>
+							</div>
+							<div class="skills__group">
+								<div class="skills__data">
+									<i class="devicon-postgresql-plain-wordmark colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-mongodb-plain colored"></i>
+								</div>
+								<div class="skills__data">
+									<i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--=============== EDUCATION ===============-->
+				<div data-content id="education">
+					<div class="text__wrapper">
+						<div class="text">
+							<h3>January 2019 - July 2023</h3>
+							<p>Bachelor's degree in computer systems engineering with a specialization in industry 4.0
+								at the Technological Institute
+								of Celaya.</p>
+						</div>
+					</div>
+					<div class="text__wrapper">
+						<div class="text">
+							<h3>July 2022 - February 2023</h3>
+							<p>Graduate of Oracle Next Education (ONE), an education and employability program with a
+								social objective
+								with the social objective of
+								of training people in technology and connecting them to the job market through
+								partner companies.</p>
+						</div>
+					</div>
+				</div>
+
+		</section>
+	</main>
+
+	<!--=============== FOOTER ===============-->
+	<footer class="footer container">
+		<span class="footer__copy">
+			&#169; Jesús Pichardo. All rigths reserved
+		</span>
+	</footer>
+
+	<!--=============== SCROLLREVEAL ===============-->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--=============== MAIN JS ===============-->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
